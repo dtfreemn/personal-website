@@ -7,14 +7,50 @@
   padding-top: 2%;
 }
 
+td {
+  border-bottom: 1px solid lightgrey;
+  border-right: none;
+  font-size: 0.9em;
+}
+
+table.col-1 td {
+  border-bottom: 1px solid black;
+}
+
+table.col-1 td.no-bottom {
+  border-bottom: none;
+}
+
 .col-1 {
   grid-column: 1;
   margin-right: 10px;
 }
 
+div.col-1 {
+  padding-top: 15px;
+  border: 1px solid black;
+}
+
+table.col-1 {
+  background: lightgrey;
+}
+
 .col-2 {
   grid-column: 2;
   margin-left: 10px;
+}
+
+div.col-2 {
+  background: lightgrey;
+  padding-top: 15px;
+}
+
+.black-border {
+  border-bottom: 1px solid black;
+}
+
+table.col-2 {
+  border: 1px solid black;
 }
 
 .row-1 {
@@ -23,12 +59,6 @@
 
 .row-2 {
   grid-row: 2;
-}
-
-td {
-  border-bottom: 1px solid lightgrey;
-  border-right: none;
-  font-size: 0.9em;
 }
 
 .small-text {

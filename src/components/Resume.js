@@ -8,7 +8,7 @@ const Resume = (props) => {
 
 
   return (
-    <div className='main-content'>
+    <div className='main-content fade-in'>
       <a href='https://docs.google.com/document/d/1cQs01ul_uAYG2zCaAkSyJfFAWQCSQsavPFGwanRUfIE/edit?usp=sharing' target='_blank'>
         <button>See Full Resume</button>
       </a>
@@ -27,9 +27,9 @@ const Resume = (props) => {
                 <td>4.0 GPA</td>
               </tr>
               <tr>
-                <td>University of Memphis<br/>2008</td>
-                <td>Bachelor of Arts in History and Spanish</td>
-                <td>3.6 GPA</td>
+                <td className='no-bottom'>University of Memphis<br/>2008</td>
+                <td className='no-bottom'>Bachelor of Arts in History and Spanish</td>
+                <td className='no-bottom'>3.6 GPA</td>
               </tr>
             </tbody>
           </table>
@@ -47,9 +47,9 @@ const Resume = (props) => {
                 <td className='small-text'>Taught and created standards-aligned curriculum for intro and intermediate level Spanish</td>
               </tr>
               <tr>
-                <td>Ministry of Education<br/>2010-11</td>
-                <td>Auxiliar de Conversación</td>
-                <td className='small-text'>Taught 5th/6th grade math, science, and social studies and managed small-group bilingual tutoring sessions</td>
+                <td className='black-border'>Ministry of Education<br/>2010-11</td>
+                <td className='black-border'>Auxiliar de Conversación</td>
+                <td className='small-text black-border'>Taught 5th/6th grade math, science, and social studies and managed small-group bilingual tutoring sessions</td>
               </tr>
             </tbody>
           </table>

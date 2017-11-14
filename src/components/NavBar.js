@@ -13,7 +13,7 @@ const NavBar = (props) => {
       <NavLink className={homeBackground()} to='/home'>Home</NavLink>
       <NavLink to='/projects'>Projects</NavLink>
       <NavLink to='/bio'>Bio</NavLink>
-      <NavLink to='/resume'>Resume</NavLink>
+      <NavLink to='/resume'>Quick Résumé</NavLink>
       <NavLink to='/contact'>Contact</NavLink>
     </div>
   )
