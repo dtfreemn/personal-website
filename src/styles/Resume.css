@@ -1,8 +1,54 @@
 #resume-container {
-  margin-left: 18%;
+  /*margin-left: 18%;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 400px;
+  text-align: center;
+  padding-top: 2%;
 }
 
-.resume {
+.col-1 {
+  grid-column: 1;
+  margin-right: 10px;
+}
+
+.col-2 {
+  grid-column: 2;
+  margin-left: 10px;
+}
+
+.row-1 {
+  grid-row: 1;
+}
+
+.row-2 {
+  grid-row: 2;
+}
+
+td {
+  border-bottom: 1px solid lightgrey;
+  border-right: none;
+  font-size: 0.9em;
+}
+
+.small-text {
+ font-size: 0.7em;
+}
+
+button {
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+  background: black;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background: lightgrey;
+  color: black;
+  border: 1px solid black;
+}
+/*.resume {
   padding-top: 2%;
   overflow-y: scroll;
   max-height: 450px;
@@ -11,7 +57,7 @@
 }
 
 .ReactPDF__Loader {
-  /*margin-top: 5%;*/
+  margin-top: 5%;
   margin-right: 22%;
   font-size: 2em;
-}
+}*/
