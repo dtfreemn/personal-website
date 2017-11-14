@@ -1,0 +1,17 @@
+#resume-container {
+  margin-left: 18%;
+}
+
+.resume {
+  padding-top: 2%;
+  overflow-y: scroll;
+  max-height: 450px;
+  max-width: 650px;
+  border-left: 1px solid lightgrey;
+}
+
+.ReactPDF__Loader {
+  /*margin-top: 5%;*/
+  margin-right: 22%;
+  font-size: 2em;
+}

@@ -1,0 +1,123 @@
+.home {
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr
+}
+
+#home-links-container {
+  grid-column: 2/7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.home img {
+  padding-top: 5%;
+}
+
+.home a {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+#headshot {
+  grid-column: 1;
+  grid-row: 1/2;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.small-img {
+  height: 100px;
+  width: 100px;
+/*  margin-left: 20px;
+  margin-right: 20px;*/
+}
+
+#ruby {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+#rails {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+#javascript {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#react {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#flatiron {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+#html {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#css {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+#redux {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#home-blurb {
+  grid-column: 2/7;
+  grid-row: 2;
+  padding-top: 5%;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.home-link-img {
+  display: inline;
+  position: relative;
+  text-align: center;
+}
+
+.home-link-img:hover img {
+ filter: blur(2px) brightness(60%);
+ background: #fff;
+}
+
+.home-link-img:hover span {
+  display: inline-block;
+}
+
+span.appear {
+  position: absolute;
+  width: 100%;
+  right: 1px;
+  top: 25px;
+  z-index: 1000;
+  display: none;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+span.javascript-logo {
+  top: 12px;
+}
+
+span.flatiron-logo {
+  /*top: 14px;*/
+  font-size: 1.3em;
+}

@@ -1,0 +1,35 @@
+#contact-links-container {
+  grid-column: 1/5;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 5%;
+  margin-left: 8%;
+}
+
+#contact-links-container a {
+  padding: 5%;
+  height: 150px;
+  width: 150px;
+  /*padding-left: 12%;*/
+}
+
+.bottom-border {
+  border-bottom: 1px solid black;
+}
+
+#contact-links-container a img {
+  height: 150px;
+  width: 150px;
+}
+
+#phone {
+  font-size: 3em;
+  margin-right: 33%;
+  padding-top: 1%;
+}
+
+#contact-links-container a:hover {
+  filter: blur(2px) brightness(60%);
+}

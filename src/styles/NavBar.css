@@ -1,0 +1,29 @@
+#nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  background: black;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#nav-bar a:hover {
+  background: #D3D3D3;
+  color: black;
+}
+
+#nav-bar a.active {
+  background: white;
+  color: black;
+}
+
+#nav-bar a.white-back {
+  background: white;
+  color: black;
+}
