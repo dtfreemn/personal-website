@@ -1,0 +1,34 @@
+table {
+  border-collapse: collapse;
+  margin-top: 2%;
+}
+
+th {
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+td {
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  max-width: 650px;
+  min-width: 110px;
+  padding: 10px;
+}
+
+td.last {
+  border-bottom: none;
+}
+
+td.no-border-right {
+  border-right: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
